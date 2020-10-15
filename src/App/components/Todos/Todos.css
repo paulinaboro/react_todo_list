@@ -1,0 +1,64 @@
+.todo-list-container {
+  background-color: white;
+  border-radius: 10px;
+  min-height: 150px;
+  height: auto;
+  margin: auto;
+  width: 40%;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  font-weight: 50;
+}
+
+input[type="text"] {
+  font-family: "Dekko", cursive;
+  font-size: 18px;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+input {
+  min-width: 18vw;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:hover {
+  color: #a17c6b;
+}
+
+img {
+  bottom: 0;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+ul {
+  vertical-align: bottom;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}

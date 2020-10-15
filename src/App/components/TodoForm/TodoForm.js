@@ -43,10 +43,16 @@ export default class TodoForm extends React.Component{
         return(
             <div>
 <form onSubmit={this.onSubmit}>
-  <input name="task" value={this.state.task} type="text" onChange={this.onChange}/>
+  <ul>
+    <li>
+  <input placeholder="New Todo" name="task" value={this.state.task} type="text" onChange={this.onChange}/>
+    </li>
+    <li>
   <button type="submit" value="Submit">
-  <img alt="plus icon" src={require('../../images/plus-icon.png')} style={{width: 30}} />
+  <img alt="plus icon" src={require('../../images/plus-icon.png')} style={{width: 40}} />
   </button>
+    </li>
+  </ul>
 </form>
             </div>
         )

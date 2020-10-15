@@ -1,5 +1,6 @@
 import React from "react";
 import TodoForm from "../TodoForm/TodoForm";
+import "./Todos.css";
 
 export default class Todos extends React.Component{
     constructor(props) {
@@ -62,16 +63,25 @@ export default class Todos extends React.Component{
               }
     render(){ 
         return(
-        <div>
+        <div className="todo-list-container">
             <h1>To do List:</h1>
             <TodoForm onFormSubmit={this.onFormSubmit}/>
+
             {this.state.todolist.map((todo) => {
     return(
-    <div key={todo.id}>  
-  <input name="task" defaultValue={todo.task} type="text" onChange={ (e) => this.handleChange(e.target.value, todo.id)}/>
-    <button value={todo.id} onClick={() => this.handleTodoDelete(todo.id)}>
+    <div className="todo_container" key={todo.id}>  
+    <ul>
+      <li>
+      <input name="task" defaultValue={todo.task} type="text" onChange={ (e) => this.handleChange(e.target.value, todo.id)}/>
+      </li>
+      <li>
+      <button value={todo.id} onClick={() => this.handleTodoDelete(todo.id)}>
         <img alt="trash icon" src={require('../../images/trash-icon.png')} style={{width: 30}} />
         </button>
+      </li>
+    </ul>
+  
+    
     </div>
     )
   })
