@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
-import Container from "./components/Container/Container";
+import Todos from "./components/Todos/Todos";
 
 export default class App extends React.Component {
-
 render(){ 
   return(
     <div className="App">
-   <Container/>
+   <Todos/>
     </div>
   );
 }
