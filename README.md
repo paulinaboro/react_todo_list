@@ -7,7 +7,6 @@ It'll run the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you'll make edits.
-You will be able to see any lint errors in the console.
 
 Run the backend on the server, on port 8080
 <pre>$node server/app.js</pre>
