@@ -1,4 +1,4 @@
-📝 Simple to do list build in React on frontend and ExpressJS on backend. 📝
+📝 Simple to do list build in React on frontend and Express.js on backend. 📝
 
 In the project directory, you can run:
 ## npm start
