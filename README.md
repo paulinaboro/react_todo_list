@@ -9,5 +9,5 @@ Open http://localhost:3000 to view it in the browser.
 The page will reload if you'll make edits.
 
 Run the backend on the server, on port 8080
-<pre>$node server/app.js</pre>
+<pre>$node API/server.js</pre>
 
