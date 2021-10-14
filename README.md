@@ -1,7 +1,7 @@
-📝 **Simple to do list build in React on frontend and Express.js on the backend.** 📝
+📝**Simple to do list build in React on frontend and Express.js on the backend.**📝
 
 In the project directory, you can run:
-# npm start
+```diff npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
